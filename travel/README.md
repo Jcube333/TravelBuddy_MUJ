@@ -1,1 +1,0 @@
-# TravelBuddy_MUJ
