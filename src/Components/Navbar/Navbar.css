@@ -1,0 +1,56 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 13vh;
+}
+
+.n-left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.n-left > :nth-child(1) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.n-left > :nth-child(1) > :nth-child(1) {
+  font-size: 2rem;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.n-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.n-right {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.n-right > :nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 3rem;
+}
+
+.n-list > * {
+  cursor: pointer;
+}
+
+.n-login {
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 20px;
+}
+.n-signup {
+  font-size: 15px;
+  font-weight: 200;
+}

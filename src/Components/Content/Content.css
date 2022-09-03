@@ -1,0 +1,72 @@
+.Content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 67vh;
+  margin: 3rem 0;
+}
+
+.c-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  position: relative;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+.c-left .head > span {
+  font-size: 2.9rem;
+  font-family: PoppinsBold;
+  color: rgb(25, 5, 36);
+}
+
+.c-left .head > :nth-child(2) {
+  margin-top: -1rem;
+}
+
+.c-left .desc {
+  width: 80%;
+  color: var(--gray);
+  font-size: 1rem;
+}
+
+.sub-head {
+  color: rgb(232, 56, 7);
+  font-size: 1.2rem;
+}
+
+.c-button {
+  width: 9rem;
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+.c-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+
+.c-right > :nth-child(1) {
+  position: absolute;
+  right: 0;
+  top: -4.5rem;
+}
+.c-right > :nth-child(2) {
+  position: absolute;
+  top: -19rem;
+  right: -7rem;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.c-blur {
+  position: absolute;
+  right: -3rem;
+  top: -6rem;
+}

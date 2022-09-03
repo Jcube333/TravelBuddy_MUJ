@@ -1,0 +1,71 @@
+:root {
+  --purple: #5208b3;
+  --blue: #4777fb;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #06b9e2;
+  /* --purple: rgb(238 210 255); */
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+/* .button {
+  padding: 11px 26px;
+  color: white;
+} */
+
+.button {
+  padding: 6px 20px;
+  color: white;
+
+  background: linear-gradient(
+    90deg,
+    /* rgb(41, 172, 192) 0%, */ rgba(17, 163, 217, 0.874) 35%,
+    rgba(124, 116, 231, 0.953) 100%
+  );
+
+  /* -webkit-box-shadow: 33px 34px 40px -18px rgba(234, 151, 34, 0.86);
+  -moz-box-shadow: 33px 34px 40px -18px rgba(239, 148, 21, 0.86); */
+  box-shadow: 2px 8px 30px 2px rgb(54, 204, 238);
+
+  border: none;
+  border-radius: 26px;
+}
+
+.button:hover {
+  color: var(--purple);
+  background: white;
+  border: 1px solid var(--purple);
+  cursor: pointer;
+}
+
+.blur {
+  height: 14rem;
+  width: 22rem;
+  filter: blur(72px);
+  border-radius: 50%;
+  background-color: #d0edf9;
+  z-index: -1;
+}
+
+.blur2 {
+  height: 14rem;
+  width: 22rem;
+  filter: blur(72px);
+  border-radius: 50%;
+  background-color: #c1f5ff;
+  z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+  }
+}
